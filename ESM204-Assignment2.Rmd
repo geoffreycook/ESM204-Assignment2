@@ -9,3 +9,27 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r Loading Libraries and DBs, include=FALSE}
+
+# Libraries
+library(tidyverse)
+library(car)
+library(RColorBrewer)
+library(stargazer)
+library(vcdExtra)
+library(reshape2)
+library(effsize)
+library(pwr)
+library(kableExtra)
+library(corrplot) 
+library(janitor)
+library(lubridate) 
+library(gganimate)
+library(ggimage)
+library(plotly)
+
+# Database
+gasdata <- read_csv("Gas_Data.csv")
+
+```
+
