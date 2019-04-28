@@ -1,0 +1,11 @@
+---
+title: "ESM204 - Assignment 2"
+author: "Geoffrey Cook & Alex Ivina"
+date: "4/27/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
